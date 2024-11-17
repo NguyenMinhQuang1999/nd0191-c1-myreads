@@ -2,8 +2,8 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import {getAll, update} from "./BooksAPI";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home";
-import Search from "./components/Search";
+import Home from "./components/Home.js";
+import Search from "./components/Search.js";
 
 function App() {
   const bookShelfs = [

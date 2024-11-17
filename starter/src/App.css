@@ -175,3 +175,7 @@ body,
   text-align: center;
   font-size: 0.8em;
 }
+.text-center {
+  text-align: left;
+  padding-left: 80px;
+}
